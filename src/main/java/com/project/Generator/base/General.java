@@ -5,6 +5,7 @@ import com.project.Generator.fireline.Entity;
 import com.project.Generator.fireline.Factory;
 import com.project.Generator.fireline.Repository;
 import com.project.Generator.fireline.Service;
+import com.project.Generator.fireline.Specification;
 import com.project.Generator.fireline.ViewObject;
 import com.project.Generator.objective.Test1;
 
@@ -26,6 +27,7 @@ public class General {
 		new Repository().go(feedData);
 		new Service().go(feedData);
 		new ViewObject().go(feedData);
+		new Specification().go(feedData);
 
 	}
 
