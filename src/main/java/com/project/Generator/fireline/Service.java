@@ -24,7 +24,7 @@ public class Service implements StartTask {
 					+ "		return %1$sVOFactory.convertToVO(result);\r\n"
 					+ "	}\r\n"
 					+ "\r\n"
-					+ "	public Page<%1$sVO> findWhitFilters(Pageable page, %1$sVO filters) {\r\n"
+					+ "	public Page<%1$sVO> findWhitFilters(Pageable page, %1$sFilterVO filters) {\r\n"
 					+ "\r\n"
 					+ "		if(filters.doNotExist()) {\r\n"
 					+ "			throw new InvalidFilterException(\"Filtros inexistentes\");\r\n"
